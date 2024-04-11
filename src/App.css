@@ -1,0 +1,57 @@
+/* src/App.css */
+.container {
+  padding: 20px;
+  background-color: #f0f5f9; /* light blueish background */
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #325288; /* dark blueish text color */
+  margin-bottom: 20px;
+}
+
+.inputContainer {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #a8c0d0; /* light blueish border color */
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.addButton {
+  background-color: #4d87c7; /* blueish button background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todosContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #a8c0d0; /* light blueish border color */
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white; /* white background for todo items */
+}
+
+.deleteButton {
+  color: #e74c3c; /* red delete button text color */
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
