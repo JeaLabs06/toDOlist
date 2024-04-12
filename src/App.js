@@ -1,6 +1,5 @@
-// src/App.js
 import React, { useState } from 'react';
-import './App.css'; // Import your CSS for styling
+import './App.css';
 
 const App = () => {
   const [todos, setTodos] = useState([]);
@@ -19,7 +18,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1 className="title">ToDo List</h1>
+      <h1 className="title">JeaLabs ToDo</h1>
       <div className="inputContainer">
         <input
           className="input"
